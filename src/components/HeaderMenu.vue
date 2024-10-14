@@ -107,7 +107,7 @@
         }
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1023px) {
         .main-header .main-header__navigation-list--item {
             padding: 8px 8px;
         }
