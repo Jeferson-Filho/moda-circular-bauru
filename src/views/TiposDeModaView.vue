@@ -9,8 +9,6 @@
       <p>Neste cenário, diversas alternativas à compra de roupas novas têm surgido, oferecendo aos consumidores uma maneira mais consciente e responsável de se vestir. Mas, afinal, quais são essas alternativas? A seguir, exploramos os principais tipos de moda circular que estão transformando o mercado e o modo como consumimos moda.</p>
     </div>
     <div class="tipos-moda__body">
-
-
       <div class="tipos-moda__body--brechos types">
         <h2 class="subtitle">Brechós</h2>
         <p>Os brechós são um dos pilares mais conhecidos da moda circular e têm desempenhado um papel importante na conscientização sobre o consumo sustentável. Ao contrário das lojas convencionais, os brechós oferecem uma vasta gama de roupas de segunda mão, muitas vezes de qualidade, estilo e até marcas renomadas, por preços mais acessíveis. Esses estabelecimentos são essenciais para prolongar a vida útil das roupas, evitar o descarte precoce e reduzir a demanda por novas produções.</p>
@@ -43,8 +41,6 @@
         <h2 class="subtitle">Troca</h2>
         <p>A prática de troca de roupas, também conhecida como "clothing swap", é uma maneira colaborativa e sem custos de renovar o guarda-roupa. Muitas vezes organizadas em eventos comunitários ou por meio de plataformas digitais, essas trocas promovem o consumo consciente e a socialização entre os participantes. Nesses eventos, as pessoas trazem peças em bom estado que não usam mais e, em troca, escolhem novas peças para levar para casa. É uma ótima maneira de estender a vida útil das roupas sem gerar novos resíduos.</p>
       </div>
-
-
     </div>
   </div>
 </section>
@@ -66,16 +62,15 @@ export default {
 </script>
 
 <style scoped>
-.tipos-moda__head {
-  margin-bottom: 32px;
-}
+	.tipos-moda__head {
+	margin-bottom: 32px;
+	}
 
-.tipos-moda__body p:not(:last-child) {
-  margin-bottom: 16px;
-}
+	.tipos-moda__body p:not(:last-child) {
+	margin-bottom: 16px;
+	}
 
-.tipos-moda__body .types:not(:last-child) {
-  margin-bottom: 32px;
-}
-
+	.tipos-moda__body .types:not(:last-child) {
+	margin-bottom: 32px;
+	}
 </style>
