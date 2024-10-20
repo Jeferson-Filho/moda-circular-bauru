@@ -42,15 +42,26 @@
                     <p>A prática de troca de roupas, também conhecida como "clothing swap", é uma maneira colaborativa e sem custos de renovar o guarda-roupa. Muitas vezes organizadas em eventos comunitários ou por meio de plataformas digitais, essas trocas promovem o consumo consciente e a socialização entre os participantes. Nesses eventos, as pessoas trazem peças em bom estado que não usam mais e, em troca, escolhem novas peças para levar para casa. É uma ótima maneira de estender a vida útil das roupas sem gerar novos resíduos.</p>
                 </div>
             </div>
+            <MediaComponent
+                title="Vídeo Teste"
+                type="video"
+                source="/videos/test_video.mp4"
+                videoType="video/mp4"
+            />
+            <div style="margin-top: 16px; display: flex;">
+                <iframe width="1020"
+                    height="650"
+                    src="https://www.youtube.com/embed/zVsEIYAnqQg?si=KsmPNbER7FKJ7T6d"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
         </div>
     </section>
 
-    <MediaComponent
-        title="Vídeo Teste"
-        type="video"
-        source="/videos/test_video.mp4"
-        videoType="video/mp4"
-    />
 
     <NextPageComponent page-name="Bauru" page-link="/bauru" />
 </template>
