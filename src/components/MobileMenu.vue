@@ -11,13 +11,13 @@
             </div>
             <div class="mobile-menu__row">
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/tipos-de-moda">Tipos de Moda</router-link>
+                    <router-link @click="closeMenu" to="/quem-somos">Quem Somos</router-link>
                 </div>
                 <div class="mobile-menu__row--title">
                     <h4 class="title">Moda Circular em Bauru</h4>
                 </div>
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/bauru">Bauru</router-link>
+                    <router-link @click="closeMenu" to="/tipos-de-moda">Tipos de Moda</router-link>
                 </div>
             </div>
             <div class="mobile-menu__row">
@@ -25,7 +25,7 @@
                     <router-link @click="closeMenu" to="/sujeito">Sujeito</router-link>
                 </div>
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/quem-somos">Quem Somos</router-link>
+                    <router-link @click="closeMenu" to="/bauru">Bauru</router-link>
 
                 </div>
             </div>
