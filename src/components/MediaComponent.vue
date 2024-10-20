@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h2>{{ title }}</h2>
+        <h2 class="title">{{ title }}</h2>
+        <h3 class="subtitle">{{ subtitle }}</h3>
   
         <div v-if="type === 'image'">
             <img :src="source" :alt="alt" />
@@ -26,6 +27,7 @@
 export default {
     props: {
         title: String,
+        subtitle: String,
         type: String,
         source: String,
         alt: String,
@@ -44,8 +46,8 @@ export default {
 </script>
   
 <style scoped>
-    h2 {
-        margin-bottom: 10px;
+    .title {
+        margin-top: 16px;
     }
 </style>
   
