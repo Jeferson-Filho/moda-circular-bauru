@@ -13,19 +13,26 @@
 			</div>
 		</div>
 	</section>
-
+	<MediaComponent
+		title="Moça"
+		type="image"
+		source="/images/test_image.webp"
+		alt="Moça"
+    />
     <NextPageComponent page-name="Impacto Ambiental" page-link="/impacto-ambiental" />
 </template>
   
 <script>
 	import BannerComponent from '@/components/BannerComponent.vue';
 	import NextPageComponent from '@/components/NextPageComponent.vue';
+	import MediaComponent from '@/components/MediaComponent.vue';
 
 	export default {
 		name: 'HomeView',
 		components: {
 			BannerComponent,
 			NextPageComponent,
+			MediaComponent,
 		}
     };
 </script>
