@@ -23,7 +23,7 @@
     </div>
   </div>
 </section>
-    <NextPageComponent page-name="Quem faz a moda circular?" page-link="/sujeito" />
+    <NextPageComponent page-name="Quem somos" page-link="/quem-somos" />
 </template>
 
 <script>
