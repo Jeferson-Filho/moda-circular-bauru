@@ -24,10 +24,10 @@
                 </nav>
                 <div class="footer__undergraduates">
                     <h5 class="footer__undergraduates--title">Grupo de Jornalismo</h5>
-                    <p class="footer__undergraduates--item">Elisa Romera</p>
-                    <p class="footer__undergraduates--item">Gabriela</p>
-                    <p class="footer__undergraduates--item">Giovanna</p>
-                    <p class="footer__undergraduates--item">Lara Duarta</p>
+                    <p class="footer__undergraduates--item">Elisa Romera De Freitas</p>
+                    <p class="footer__undergraduates--item">Gabriela Rufino Armelin</p>
+                    <p class="footer__undergraduates--item">Giovana Cordero Cerantola</p>
+                    <p class="footer__undergraduates--item">Lara Vitória Daniel Duarte</p>
                 </div>
             </div>
         </div>
