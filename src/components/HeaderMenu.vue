@@ -19,6 +19,7 @@
                     <li class="main-header__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/bauru">Bauru</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/sujeito">Sujeito</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/quem-somos">Quem Somos</router-link></li>
                 </ul>
             </nav>
         </div>
@@ -81,7 +82,7 @@
     }
     
     .main-header .main-header__navigation-list--item {
-        padding: 8px 32px;
+        padding: 8px 16px;
     }
 
     .main-header .main-header__navigation-list--item:not(:last-child) {
@@ -103,7 +104,7 @@
 
     @media screen and (max-width: 1200px) {
         .main-header .main-header__navigation-list--item {
-            padding: 8px 16px;
+            padding: 8px 4px;
         }
     }
 
