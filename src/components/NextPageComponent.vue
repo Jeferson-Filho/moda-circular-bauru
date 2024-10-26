@@ -1,19 +1,20 @@
 <template>
-    <section id="next-page">
+    <div id="next-page">
         <div class="container">
-            <div class="next-page">
+            <div class="next-page" :class="toNext ? 'next' : 'previous'">
                 <router-link :to="pageLink" class="next-page__link">
                     <div class="next-page__link--text">
-                        <p class="next-page--body">Próxima página</p>
+                        <p class="next-page--body" v-if="toNext">Próxima página</p>
+                        <p class="next-page--body" v-else>Página anterior</p>
                         <p class="next-page--title">{{ pageName }}</p>
                     </div>
                     <div class="next-page__link--image">
-                        <img src="images/svg/arrow-next.svg" alt="Next Page">
+                        <img src="images/svg/arrow-next.svg" :alt="'To page ' + pageName">
                     </div>
                 </router-link>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -27,6 +28,10 @@
             pageLink: {
                 type: String,
                 required: true,
+            },
+            toNext: {
+                type: Boolean,
+                default: true,
             }
         }
     }
@@ -34,7 +39,7 @@
 
 <style scoped>
     #next-page {
-        padding: 0 0 64px 0;
+        /* padding: 0 0 64px 0; */
     }
 
     .next-page {
@@ -45,7 +50,7 @@
     .next-page__link {
         display: flex;
         justify-content: flex-end;
-        gap: 36px;
+        gap: 12px;
 
         max-width: 400px;
     }
@@ -66,15 +71,23 @@
         font-weight: 700;
     }
 
+    .next-page.previous .next-page__link {
+        flex-direction: row-reverse;
+    }
+
+    .next-page.previous .next-page__link--image img {
+        transform: rotate(180deg);
+    }
+
     @media screen and (max-width: 1023px) {
         #next-page {
-            padding: 0 32px 64px 32px;
+            /* padding: 0 32px 64px 32px; */
         }
     }
 
     @media screen and (max-width: 767px) {
         #next-page {
-            padding: 0 16px 64px 16px;
+            /* padding: 0 16px 64px 16px; */
         }
     }
 </style>

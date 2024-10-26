@@ -40,7 +40,14 @@
             </div>
         </div>
     </section>
-    <NextPageComponent page-name="Quem somos" page-link="/quem-somos" />
+    <section id="other-page">
+		<div class="container">
+			<div class="other-page">
+				<NextPageComponent page-name="Bauru" page-link="/bauru" :toNext="false" />
+                <NextPageComponent page-name="Quem Somos" page-link="/quem-somos" />
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>

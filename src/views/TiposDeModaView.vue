@@ -62,7 +62,14 @@
             </div> -->
         </div>
     </section>
-    <NextPageComponent page-name="Bauru" page-link="/bauru" />
+    <section id="other-page">
+		<div class="container">
+			<div class="other-page">
+                <NextPageComponent page-name="Impacto Ambiental" page-link="/impacto-ambiental" :toNext="false"/>
+				<NextPageComponent page-name="Bauru" page-link="/bauru" />
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>

@@ -99,6 +99,15 @@ p, span {
     margin-bottom: 16px;
 }
 
+#other-page {
+    padding-top: 0;
+}
+
+.other-page {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 1024px) {
     .only-mobile {
         display: none !important;
@@ -131,4 +140,12 @@ p, span {
     h3 {
         font-size: 24px;
     }      
+}
+
+@media screen and (max-width: 450px) {
+    .other-page {
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
 }
