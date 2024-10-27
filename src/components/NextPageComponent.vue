@@ -39,7 +39,14 @@
 
 <style scoped>
     #next-page {
-        /* padding: 0 0 64px 0; */
+        padding: 8px;
+        border-radius: 10px;
+        transition: var(--transition);
+    }
+    
+    #next-page:hover {
+        box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
+        transition: var(--transition);
     }
 
     .next-page {
@@ -79,19 +86,11 @@
         flex-direction: row-reverse;
     }
 
+    .next-page.previous .next-page__link--text {
+        align-items: flex-start;
+    }
+
     .next-page.previous .next-page__link--image img {
         transform: rotate(180deg);
-    }
-
-    @media screen and (max-width: 1023px) {
-        #next-page {
-            /* padding: 0 32px 64px 32px; */
-        }
-    }
-
-    @media screen and (max-width: 767px) {
-        #next-page {
-            /* padding: 0 16px 64px 16px; */
-        }
     }
 </style>
