@@ -48,12 +48,12 @@
     .sub-footer {
         width: 100%;
         height: 50px;
-        background-color: var(--primary-color);
+        background-color: var(--color-1);
     }
 
     #footer {
         width: 100%;
-        background-color: #D9D9D9;
+        background-color: var(--color-3);
     }
 
     .footer {
@@ -98,16 +98,16 @@
 
     .footer__navigation-list--title,
     .footer__undergraduates--title {
+        color: var(--color-1);
         margin-bottom: 8px;
     }
 
     .footer__navigation-list--item {
-        transition: var(--transition);
+        color: var(--text-color);
     }
 
     .footer__navigation-list--item:hover {
-        color: var(--primary-color);
-        transition: var(--transition);
+        color: var(--color-1);
     }
 
     @media screen and (max-width: 767px) {

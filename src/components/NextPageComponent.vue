@@ -66,6 +66,10 @@
         text-align: end;
     }
 
+    .next-page__link--text .next-page--title {
+        color: var(--color-4);
+    }
+
     .next-page--title {
         font-size: 18px;
         font-weight: 700;

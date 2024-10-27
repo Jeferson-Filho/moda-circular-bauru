@@ -51,7 +51,7 @@
 <style scoped>
     header#header {
         min-height: 80px;
-        background-color: #D9D9D9;
+        background-color: var(--color-3);
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
         display: flex;
@@ -86,20 +86,20 @@
     }
 
     .main-header .main-header__navigation-list--item:not(:last-child) {
-        border-right: 1px solid black;
+        border-right: 2px solid var(--color-2);
     }
 
     .main-header .main-header__navigation-list--item a {
-        color: black;
+        color: var(--color-2);
         text-decoration: none;
         font-weight: 700;
         
-        padding: 30px 16px;
+        padding: 29px 16px;
     }
     
     .main-header .main-header__navigation-list--item a:hover,
     .main-header__navigation-list--item .router-link-active {
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid var(--color-2);
     }
 
     @media screen and (max-width: 1200px) {

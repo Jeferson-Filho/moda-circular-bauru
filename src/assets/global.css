@@ -102,12 +102,12 @@ p, span, a {
 }
 
 .title {
-    color: var(--primary-color);
+    color: var(--color-2);
     margin-bottom: 16px;
 }
 
 .subtitle {
-    color: var(--secondary-color);
+    color: var(--color-4);
     font-weight: 400;
     margin-bottom: 16px;
 }
