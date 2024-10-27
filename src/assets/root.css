@@ -14,10 +14,10 @@
     --color-gray-border: #203736;
 
     /* fonts variables */
-    --title-font: "Playfair Display Bold", serif;
-    --title-font-regular: "Playfair Display Regular", serif;
-    --text-font: "OpenSans Regular", serif;
-    --text-font-semibold: "OpenSans SemiBold", serif;
+    --title-font: "Glacial Indifference Bold", sans-serif;
+    --title-weight: 700;
+    --text-font: "Hanken Grotesk", sans-serif;
+    --text-weight: 400;
     --heading-first-font-size: 40px;
     --heading-second-font-size: 32px;
     --heading-third-font-size: 24px;
