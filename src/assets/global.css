@@ -84,15 +84,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: var(--heading-first-font-size);
+  font-size: var(--h1-font-size);
 }
 
 h2 {
-  font-size: var(--heading-second-font-size);
+  font-size: var(--h2-font-size);
 }
 
 h3 {
-  font-size: var(--heading-third-font-size);
+  font-size: var(--h3-font-size);
 }
 
 p, span, a {
