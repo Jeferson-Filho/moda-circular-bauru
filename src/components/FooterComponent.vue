@@ -71,6 +71,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+        gap: 8px;
     }
 
 
@@ -84,6 +85,7 @@
 
     .footer__navigation {
         align-items: center;
+        gap: 4px;
     }
 
     .footer__undergraduates {
